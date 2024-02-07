@@ -1030,7 +1030,10 @@ input[name="tab_item"] {
 #yacht1fb:checked ~ #yacht1fb, 
 #lab2f:checked ~ #lab2f,
 #lab1f:checked ~ #lab1f,
-#labb1:checked ~ #labb1 {
+#labb1:checked ~ #labb1,
+#lair2f:checked ~ #lair2f,
+#lair1f:checked ~ #lair1f,
+#lairb1:checked ~ #lairb1 {
   display: block;
 }
 
