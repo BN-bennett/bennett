@@ -1239,6 +1239,10 @@ label {
   top: 78px;
   left: 100px;
 }
+#skopos {
+  top: 78px;
+  left: 145px;
+}
 /* 攻撃側オペレーターアイコン位置決め */
 #sledge {
   top: 0px;
@@ -1379,4 +1383,8 @@ label {
 #ram {
   top: 78px;
   left: 100px;
+}
+#deimos {
+  top: 78px;
+  left: 145px;
 }
