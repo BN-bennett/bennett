@@ -1239,9 +1239,13 @@ label {
   top: 78px;
   left: 100px;
 }
-#skopos {
+#sentry {
   top: 78px;
   left: 145px;
+}
+#skopos {
+  top: 78px;
+  left: 190px;
 }
 /* 攻撃側オペレーターアイコン位置決め */
 #sledge {
@@ -1387,4 +1391,8 @@ label {
 #deimos {
   top: 78px;
   left: 145px;
+}
+#striker {
+  top: 78px;
+  left: 190px;
 }
