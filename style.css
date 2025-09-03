@@ -65,16 +65,16 @@ body {
   font-size: 20px;
   color: white;
   position: absolute;
-  bottom: 50px;
+  top: 10px;
   left: 75px;
 }
 .numbers {
-  font-size: 11px;
+  font-size: 24px;
   height: 30px;
   width: 30px;
   border-radius: 50%;
   text-align: center;
-  line-height: 0px;
+  line-height: 35px;
   background-color:black;
   border: 2px solid white;
 }
