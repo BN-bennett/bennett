@@ -55,6 +55,7 @@
     <img src="ram.jpg" alt="" class="drag-and-drop icon" id="ram" draggable="true">
     <img src="deimos.jpg" alt="" class="drag-and-drop icon" id="deimos" draggable="true">
     <img src="rauora.jpg" alt="" class="drag-and-drop icon" id="rauora" draggable="true">
+    <img src="solidsnake.jpg" alt="" class="drag-and-drop icon" id="solidsnake" draggable="true">
 
 
     <div class="drone_slot">
@@ -291,6 +292,11 @@
       <input id="villab1" type="radio" name="tab_item">
       <label class="L23 tab_item" for="villab1">빌라 B1</label>
 
+      <input id="fortress2f" type="radio" name="tab_item">
+      <label class="L24 tab_item" for="fortress2f">요새 2F</label>
+      <input id="fortress1f" type="radio" name="tab_item">
+      <label class="L25 tab_item" for="fortress1f">요새 1F</label>
+
       <input id="themepark2f" type="radio" name="tab_item">
 	    <label class="R1 tab_item" for="themepark2f">테마파크 2F</label>
       <input id="themepark1f" type="radio" name="tab_item">
@@ -335,6 +341,13 @@
       <label class="R18 tab_item" for="outback2f">오지 2F</label>
       <input id="outback1f" type="radio" name="tab_item">
       <label class="R19 tab_item" for="outback1f">오지 1F</label>
+
+      <input id="casino2f" type="radio" name="tab_item">
+      <label class="R20 tab_item" for="casino2f">카지노 2F</label>
+      <input id="casino1f" type="radio" name="tab_item">
+      <label class="R21 tab_item" for="casino1f">카지노 1F</label>
+      <input id="casinob1" type="radio" name="tab_item">
+      <label class="R22 tab_item" for="casinob1">카지노 B1</label>
 
 
       <div class="tab_content" id="bank2f">
@@ -455,13 +468,28 @@
         <img src="labb1.jpg" alt="" class="map">
       </div>
 	  <div class="tab_content" id="lair2f">
-        <img src="lair2f.png" alt="" class="map">
+        <img src="lair2f.jpg" alt="" class="map">
       </div>
 	  <div class="tab_content" id="lair1f">
-        <img src="lair1f.png" alt="" class="map">
+        <img src="lair1f.jpg" alt="" class="map">
       </div>
 	  <div class="tab_content" id="lairb1">
-        <img src="lairb1.png" alt="" class="map">
+        <img src="lairb1.jpg" alt="" class="map">
+      </div>
+    <div class="tab_content" id="fortress2f">
+        <img src="fortress2f.jpg" alt="" class="map">
+      </div>
+	  <div class="tab_content" id="fortress1f">
+        <img src="fortress1f.jpg" alt="" class="map">
+      </div>
+    <div class="tab_content" id="casino2f">
+        <img src="casino2f.jpg" alt="" class="map">
+      </div>
+	  <div class="tab_content" id="casino1f">
+        <img src="casino1f.jpg" alt="" class="map">
+      </div>
+	  <div class="tab_content" id="casinob1">
+        <img src="casinob1.jpg" alt="" class="map">
       </div>
     </div>
 
@@ -508,7 +536,8 @@ const R6MapTool = (() => {
     'oregon1f', 'oregonb1', 'skyscraper2f', 'skyscraper1f', 'villa2f', 'villa1f', 'villab1',
     'themepark2f', 'themepark1f', 'lab2f', 'lab1f', 'labb1', 'consulate2f', 'consulate1f',
     'consulateb1', 'lair2f', 'lair1f', 'lairb1', 'bartlett2f', 'bartlett1f', 'coastline2f',
-    'coastline1f', 'kanal2f', 'kanal1f', 'kanalb1', 'kanalb2', 'outback2f', 'outback1f'
+    'coastline1f', 'kanal2f', 'kanal1f', 'kanalb1', 'kanalb2', 'outback2f', 'outback1f', 
+    'fortress2f', 'fortress1f', 'casino2f', 'casino1f', 'casinob1'
   ];
   let mapStates = {};
   let currentMap = 'bank2f';

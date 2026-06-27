@@ -724,6 +724,8 @@ body {
 .L21 { top: calc(var(--tab-start-y) + var(--tab-gap-y) * 20); left: var(--tab-left-x); }
 .L22 { top: calc(var(--tab-start-y) + var(--tab-gap-y) * 21); left: var(--tab-left-x); }
 .L23 { top: calc(var(--tab-start-y) + var(--tab-gap-y) * 22); left: var(--tab-left-x); }
+.L24 { top: calc(var(--tab-start-y) + var(--tab-gap-y) * 23); left: var(--tab-left-x); }
+.L25 { top: calc(var(--tab-start-y) + var(--tab-gap-y) * 24); left: var(--tab-left-x); }
 
 /* 마ップ 탭의 위치 - R 시리즈 */
 .R1 { top: calc(var(--tab-start-y) + var(--tab-gap-y) * 0); left: var(--tab-right-x); }
@@ -745,6 +747,9 @@ body {
 .R17 { top: calc(var(--tab-start-y) + var(--tab-gap-y) * 16); left: var(--tab-right-x); }
 .R18 { top: calc(var(--tab-start-y) + var(--tab-gap-y) * 17); left: var(--tab-right-x); }
 .R19 { top: calc(var(--tab-start-y) + var(--tab-gap-y) * 18); left: var(--tab-right-x); }
+.R20 { top: calc(var(--tab-start-y) + var(--tab-gap-y) * 19); left: var(--tab-right-x); }
+.R21 { top: calc(var(--tab-start-y) + var(--tab-gap-y) * 20); left: var(--tab-right-x); }
+.R22 { top: calc(var(--tab-start-y) + var(--tab-gap-y) * 21); left: var(--tab-right-x); }
 
 /* 라디오 버튼 숨기기 */
 input[name="tab_item"] {
@@ -811,7 +816,12 @@ input[name="tab_item"] {
 #labb1:checked ~ #labb1,
 #lair2f:checked ~ #lair2f,
 #lair1f:checked ~ #lair1f,
-#lairb1:checked ~ #lairb1 {
+#lairb1:checked ~ #lairb1,
+#fortress2f:checked ~ #fortress2f,
+#fortress1f:checked ~ #fortress1f,
+#casino2f:checked ~ #casino2f,
+#casino1f:checked ~ #casino1f,
+#casinob1:checked ~ #casinob1 {
   display: block;
 }
 
@@ -1034,5 +1044,6 @@ label {
 #ram { top: calc(var(--op-gap-y) * 2); left: calc(var(--op-start-x) + var(--op-gap-x) * 3); }
 #deimos { top: calc(var(--op-gap-y) * 2); left: calc(var(--op-start-x) + var(--op-gap-x) * 4); }
 #rauora { top: calc(var(--op-gap-y) * 2); left: calc(var(--op-start-x) + var(--op-gap-x) * 5); }
+#solidsnake { top: calc(var(--op-gap-y) * 2); left: calc(var(--op-start-x) + var(--op-gap-x) * 5); }
 
 
